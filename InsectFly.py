@@ -1,7 +1,7 @@
 import InsectClass as i
 
-mosquito = i.Insect
-housefly = i.Insect
+mosquito = i.Insect()
+housefly = i.Insect()
 
 mosquito.flight_length()
 housefly.flight_length()
